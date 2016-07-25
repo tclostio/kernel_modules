@@ -1,0 +1,1 @@
+cmd_/home/trent/modules/src/stop-start/startstop.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/trent/modules/src/stop-start/startstop.ko /home/trent/modules/src/stop-start/startstop.o /home/trent/modules/src/stop-start/startstop.mod.o

@@ -1,0 +1,14 @@
+make -C /lib/modules/4.4.6-gentoo/build M=/home/trent/modules/src/helloworld-1 modules
+make[1]: Entering directory '/usr/src/linux-4.4.6-gentoo'
+  CC [M]  /home/trent/modules/src/helloworld-1/hello-5.o
+scripts/Makefile.build:264: recipe for target '/home/trent/modules/src/helloworld-1/hello-5.o' failed
+Makefile:1384: recipe for target '_module_/home/trent/modules/src/helloworld-1' failed
+make[1]: Leaving directory '/usr/src/linux-4.4.6-gentoo'
+Makefile:8: recipe for target 'all' failed
+make -C /lib/modules/4.4.6-gentoo/build M=/home/trent/modules/src/helloworld-1 modules
+make[1]: Entering directory '/usr/src/linux-4.4.6-gentoo'
+  CC [M]  /home/trent/modules/src/helloworld-1/hello-5.o
+scripts/Makefile.build:264: recipe for target '/home/trent/modules/src/helloworld-1/hello-5.o' failed
+Makefile:1384: recipe for target '_module_/home/trent/modules/src/helloworld-1' failed
+make[1]: Leaving directory '/usr/src/linux-4.4.6-gentoo'
+Makefile:8: recipe for target 'all' failed

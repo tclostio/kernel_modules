@@ -1,0 +1,1 @@
+cmd_/home/trent/modules/src/helloworld-1/hello-1.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/trent/modules/src/helloworld-1/hello-1.ko /home/trent/modules/src/helloworld-1/hello-1.o /home/trent/modules/src/helloworld-1/hello-1.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/trent/modules/src/stop-start/startstop.o := ld -m elf_x86_64   -r -o /home/trent/modules/src/stop-start/startstop.o /home/trent/modules/src/stop-start/start.o /home/trent/modules/src/stop-start/stop.o 
